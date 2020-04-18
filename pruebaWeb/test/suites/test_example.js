@@ -5,7 +5,7 @@ const page = new ExamplePage();
 fixture `Example page tests`
     .page `https://devexpress.github.io/testcafe/example/`;
     const name = 'Ricardo';
-    const comments = 'Escribi algo, hola soy German'
+    const comments = 'Escribi algo, hola soy German';
     test('My first test', async t => {
         await t
             .typeText(page.inputName, name)

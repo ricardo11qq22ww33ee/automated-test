@@ -10,7 +10,6 @@ export default class ExamplePage {
         this.triedTestCafe = Selector('input[name=tried-test-cafe]');
         this.comments = Selector('textarea[name=comments]');
         this.submit = Selector('#submit-button');
-        
         // llenar comentario
         //click submiy button
         //validar thank you incluye nombre
